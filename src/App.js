@@ -30,7 +30,7 @@ function App() {
         <div className='background-image'>
             <div> .</div>
           <div className='wallet'>
-            <button className='button-33'>0x1c4853ec0d55e420002c5efabc7ed8e0ba7a4121</button>
+            <button className='button-34'>0x1c4853ec0d55e420002c5efabc7ed8e0ba7a4121</button>
           </div>
           <div className='action-button'>
             <div className='dex-button' onClick={goToDex}><button className='button-33'>Dextools</button></div>
