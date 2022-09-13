@@ -15,6 +15,9 @@ function App() {
   const goToUniswap = () => {
     window.open('https://app.uniswap.org/#/swap?outputCurrency=0x1c4853ec0d55e420002c5efabc7ed8e0ba7a4121&chain=mainnet', "_blank")
   }
+  const walletAddress = () => {
+    navigator.clipboard.writeText("0x1c4853ec0d55e420002c5efabc7ed8e0ba7a4121");
+  }
 
   return (
     <div className="App">
@@ -30,7 +33,7 @@ function App() {
         <div className='background-image'>
             <div> .</div>
           <div className='wallet'>
-            <button className='button-34'>0x1c4853ec0d55e420002c5efabc7ed8e0ba7a4121</button>
+            <button className='button-34' onClick={walletAddress}>0x1c4853ec0d55e420002c5efabc7ed8e0ba7a4121</button>
           </div>
           <div className='action-button'>
             <div className='dex-button' onClick={goToDex}><button className='button-33'>Dextools</button></div>
