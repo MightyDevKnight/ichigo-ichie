@@ -29,9 +29,6 @@ function App() {
         <div className='button-box'>
           <button className='telegram-button' onClick={goToTelegram}></button>
           <button className='twitter-button' onClick={goToTwitter}></button>
-        </div>
-        <div className='background-image'>
-            <div> .</div>
           <div className='wallet'>
             <button className='button-34' onClick={walletAddress}>0x1c4853ec0d55e420002c5efabc7ed8e0ba7a4121</button>
           </div>
@@ -40,6 +37,10 @@ function App() {
             <button className='button-33' onClick={goToUniswap}>Uniswap</button>
           </div>
         </div>
+        {/* <div className='background-image'>
+            <div> .</div> */}
+          
+        {/* </div> */}
         <div>@COPYRIGHT 2022</div>
       </body>
     </div>
