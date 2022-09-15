@@ -8,14 +8,15 @@
 }
 
 .wallet {
-  margin-top: 250px;
   display: grid;
   justify-items: center;
+  background-color: rgb(92, 151, 167);
+  ;
 }
 
 .action-button {
-  margin-top: 50px;
   display: flex;
+  background-color: rgb(92, 151, 167);
   justify-content: center;
 }
 
@@ -76,6 +77,7 @@
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  margin-bottom: 50px;
 }
 
 .button-33:hover {
@@ -100,7 +102,7 @@
   height: 100px;
   border-radius: 50%;
   border: none;
-  margin-right: 70%;
+  margin-right: 30px;
   margin-bottom: 50px;
   margin-top: 50px;
   box-shadow: rgba(0, 0, 0, 0.86) 15px 15px 15px;
@@ -115,6 +117,7 @@
   border: none;
   margin-bottom: 50px;
   box-shadow: rgba(0, 0, 0, 0.86) 15px 15px 15px;
+  margin-left: 30px;
 }
 
 .button-box {
@@ -205,5 +208,8 @@
 
   .wallet {
     margin-top: 0px;
+    display: grid;
+    justify-items: center;
+    background-color: rgb(92, 151, 167);
   }
 }
