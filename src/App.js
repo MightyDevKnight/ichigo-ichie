@@ -7,16 +7,16 @@ function App() {
     window.open('https://t.me/ichigoichiofficial', "_blank");
   }
   const goToTwitter = () => {
-    window.open('https://twitter.com/Ichigoichie_ETH?t=3Ib2oXF0iSTahelHgVhYXg&s=35', "_blank");
+    window.open('https://twitter.com/Ichigoichie_ETH?t=G8Lg7D4hICbdY7PL4v1W-g&s=09', "_blank");
   }
   const goToDex = () => {
-    window.open('https://www.dextools.io/app/ether/pair-explorer/0x5ad7452ceafdaeb0936507d5bb5890964ef56bd3', "_blank")
+    window.open('https://www.dextools.io/app/ether/pair-explorer/0xe4ce706711a10c42d63164289ba8ef6b93e8c224', "_blank")
   }
   const goToUniswap = () => {
-    window.open('https://app.uniswap.org/#/swap?outputCurrency=0x1c4853ec0d55e420002c5efabc7ed8e0ba7a4121&chain=mainnet', "_blank")
+    window.open('https://app.uniswap.org/#/swap?outputCurrency=0xe84a63365d5afc66698418413e5c97b887d96eff&chain=mainnet', "_blank")
   }
   const walletAddress = () => {
-    navigator.clipboard.writeText("0x1c4853ec0d55e420002c5efabc7ed8e0ba7a4121");
+    navigator.clipboard.writeText("0xe84a63365d5afc66698418413e5c97b887d96eff");
   }
   const goToMedium = () => {
     window.open('https://medium.com/@ichigo_ichi', "_blank");
@@ -33,7 +33,7 @@ function App() {
             <button className='twitter-button' onClick={goToTwitter}></button>
               <button className='medium-button' onClick={goToMedium}></button>
               </div>
-              <button className='button-34' onClick={walletAddress}>0x1c4853ec0d55e420002c5efabc7ed8e0ba7a4121</button>
+              <button className='button-34' onClick={walletAddress}>0xe84a63365d5afc66698418413e5c97b887d96eff</button>
             </div>
             <div className='action-button'>
               <div className='dex-button' onClick={goToDex}><button className='button-33'>Dextools</button></div>
