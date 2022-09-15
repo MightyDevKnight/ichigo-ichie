@@ -1,4 +1,6 @@
 .App {
+  background-image: url('../public/img/background.jpeg');
+  background-size: contain;
   text-align: center;
 }
 
@@ -10,13 +12,11 @@
 .wallet {
   display: grid;
   justify-items: center;
-  background-color: rgb(92, 151, 167);
   ;
 }
 
 .action-button {
   display: flex;
-  background-color: rgb(92, 151, 167);
   justify-content: center;
 }
 
@@ -121,7 +121,6 @@
 }
 
 .button-box {
-  background-color: rgb(92, 151, 167);
   margin-top: -400px;
 }
 
@@ -138,7 +137,16 @@
 }
 
 .title {
-  background-color: rgb(92, 151, 167);
+  font-size: 80px;
+  color: white;
+  font-family: cursive;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.copyright {
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .background-image {
@@ -210,6 +218,9 @@
     margin-top: 0px;
     display: grid;
     justify-items: center;
-    background-color: rgb(92, 151, 167);
+  }
+
+  .medium-button {
+    margin-left: 0px;
   }
 }

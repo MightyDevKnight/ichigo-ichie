@@ -25,30 +25,22 @@ function App() {
   return (
     <div className="App">
       <body>
-        {/* <video className='background' autoPlay loop muted>
-            <source src={background} type='video/mp4' />
-        </video> */}
-        <div className='title'  ><img src='./img/ichigo.jpg'/></div>
-        {/* <div className='button-box'> */}
-          
-          <div className='wallet'>
-            <div>
-              <button className='telegram-button' onClick={goToTelegram}></button>
-          <button className='twitter-button' onClick={goToTwitter}></button>
-            <button className='medium-button' onClick={goToMedium}></button>
+        <div className='background-image'>
+          <div className='title'  >Ichigo Ichie</div>
+            <div className='wallet'>
+              <div>
+                <button className='telegram-button' onClick={goToTelegram}></button>
+            <button className='twitter-button' onClick={goToTwitter}></button>
+              <button className='medium-button' onClick={goToMedium}></button>
+              </div>
+              <button className='button-34' onClick={walletAddress}>0x1c4853ec0d55e420002c5efabc7ed8e0ba7a4121</button>
             </div>
-            <button className='button-34' onClick={walletAddress}>0x1c4853ec0d55e420002c5efabc7ed8e0ba7a4121</button>
-          </div>
-          <div className='action-button'>
-            <div className='dex-button' onClick={goToDex}><button className='button-33'>Dextools</button></div>
-            <button className='button-33' onClick={goToUniswap}>Uniswap</button>
-          </div>
-        {/* </div> */}
-        {/* <div className='background-image'>
-            <div> .</div> */}
-          
-        {/* </div> */}
-        <div>@COPYRIGHT 2022</div>
+            <div className='action-button'>
+              <div className='dex-button' onClick={goToDex}><button className='button-33'>Dextools</button></div>
+              <button className='button-33' onClick={goToUniswap}>Uniswap</button>
+            </div>
+          <div className='copyright'>@COPYRIGHT 2022</div>
+        </div>
       </body>
     </div>
   );
