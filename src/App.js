@@ -18,6 +18,9 @@ function App() {
   const walletAddress = () => {
     navigator.clipboard.writeText("0x1c4853ec0d55e420002c5efabc7ed8e0ba7a4121");
   }
+  const goToMedium = () => {
+    window.open('https://medium.com/@ichigo_ichi', "_blank");
+  }
 
   return (
     <div className="App">
@@ -30,6 +33,7 @@ function App() {
           <button className='telegram-button' onClick={goToTelegram}></button>
           <button className='twitter-button' onClick={goToTwitter}></button>
           <div className='wallet'>
+            <button className='medium-button' onClick={goToMedium}></button>
             <button className='button-34' onClick={walletAddress}>0x1c4853ec0d55e420002c5efabc7ed8e0ba7a4121</button>
           </div>
           <div className='action-button'>
